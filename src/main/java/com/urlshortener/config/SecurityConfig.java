@@ -62,7 +62,8 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(List.of(
     "http://localhost:5173",
     "https://url-shortener-greninja1.vercel.app",
-    "https://url-shortener-c44w8ahq7-greninja1.vercel.app"
+    "https://url-shortener-c44w8ahq7-greninja1.vercel.app",
+    "https://url-shortener-g9ndir1zr-greninja1.vercel.app"
 ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
