@@ -25,12 +25,12 @@ spring:
     locations: classpath:db/migration
     baseline-on-migrate: true
 
-  data:
+    data:
     redis:
       host: ${REDIS_HOST:localhost}
       port: ${REDIS_PORT:6379}
-      timeout: 500ms
-      connect-timeout: 500ms
+      timeout: 5s
+      connect-timeout: 5s
 
 app:
   jwt:
